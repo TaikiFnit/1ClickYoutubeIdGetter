@@ -1,0 +1,26 @@
+{
+  "name": "1-Click Youtube ID Getter",
+  "version": "1.0",
+  "description": "getting youtube view id",
+  "permissions": ["activeTab", "declarativeContent", "clipboardRead", "tabs"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/img.png",
+      "24": "images/img.png",
+      "32": "images/img.png"
+    },
+    "default_title": "1-Click Youtube ID Getter",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/img.png",
+    "32": "images/img.png",
+    "48": "images/img.png",
+    "128": "images/img.png"
+  },
+  "manifest_version": 2
+}
