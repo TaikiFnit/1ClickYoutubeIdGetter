@@ -16,11 +16,7 @@ function getParam(name, url) {
 
 window.onload = function() {
   chrome.tabs.getSelected(null, function(tab) {
-    console.log('url')
-    console.log(tab.url)
-    console.log(tab)
-
-    var viewId = getParam('v', tab.url)
+    var viewId = getParam('v', tab.url);
     chrome.runtime.sendMessage({
       text: viewId
     });

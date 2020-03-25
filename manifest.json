@@ -1,6 +1,6 @@
 {
   "name": "1-Click Youtube ID Getter",
-  "version": "1.0",
+  "version": "1.1",
   "description": "getting youtube view id",
   "permissions": ["activeTab", "declarativeContent", "clipboardRead", "tabs"],
   "background": {
